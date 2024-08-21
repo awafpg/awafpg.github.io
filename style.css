@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0572ba;
+  min-height: 100vh;
+}
+
+#quote-box {
+  width: 580px;
+  background: white;
+  border-radius: 10px;
+  padding: 30px 30px 25px;
+}
+
+#quote-box header {
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#quote-box .content {
+  margin: 23px 10px;
+}
+
+#quote-box .text-area {
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.text-area i {
+  font-size: 20px;
+}
+
+.text-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+
+.text-area i:last-child {
+  margin: 0 0 3px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#author {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+#feature button.Loading {
+  background: black;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+#anime {
+  display: flex;
+  margin: 0 0 0 0px;
+}
+
+.buttons {
+  border-top: 1px solid #bbb;
+}
+
+#feature {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+#feature ul {
+  display: flex;
+}
+
+#feature ul li {
+  list-style: none;
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  color: #f06d06;
+  justify-content: center;
+  border: 2px solid #f06d06;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#feature ul li a {
+  color: #f06d06;
+}
+#feature ul li:hover,
+#feature ul li a:hover {
+  background: #f06d06;
+  color: white;
+}
+#feature button:hover {
+  background: white;
+  border: 1px solid #f06d06;
+  color: #f06d06;
+}
+
+#feature button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #f06d06;
+  font-size: 16px;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 20px;
+}
+
+/* style.css */
+.fa-volume-up {
+  width: 25px;
+  height: 25px;
+  background-image: url("./icon/speaker-svgrepo-com.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px auto; /* Center the icon horizontally */
+}
+.fa-copy {
+  width: 25px;
+  height: 25px;
+  background-image: url("./icon/copy-svgrepo-com.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px auto; /* Center the icon horizontally */
+}
+.custom-twitter-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("./icon/twitter-color-svgrepo-com.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto; /* Center the icon horizontally */
+}
+
+.img-area {
+  width: 300px; /* Set a fixed width */
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the entire area while maintaining aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  display: block; /* Ensures the image behaves like a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
