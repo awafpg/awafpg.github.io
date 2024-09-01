@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 857 601" width="2001" height="1403">
+	<title>2167235-ai</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h857v601h-857z"/>
+		</clipPath>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(427.956,576.901,-607.301,450.507,453.665,-259.464)">
+			<stop offset="0" stop-color="#efce56"/>
+			<stop offset="1" stop-color="#b8222c"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<g id="Artboard 1" clip-path="url(#cp1)">
+		<g id="OBJECTS">
+			<path id="&lt;Path&gt;" class="s0" d="m861.1 604.1h-860.2v-606.2h860.2z"/>
+		</g>
+	</g>
+</svg>
